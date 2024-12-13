@@ -67,9 +67,9 @@ data = [
 df = pd.DataFrame(data)
 
 # Streamlit setup
-st.set_page_config(page_title="EV SUV Dashboard", layout="wide")
-st.title("EV SUV Dashboard")
-st.markdown("Explore electric SUVs and customize weights to find your optimal vehicle.")
+st.set_page_config(page_title="Used 2023 EV SUV Dashboard", layout="wide")
+st.title("USED 2023 EV SUV Dashboard")
+st.markdown("Explore used 2023 electric SUVs and customize weights to find your optimal vehicle.")
 
 # Sidebar: Adjust feature weights
 st.sidebar.header("Adjust Feature Weights")
